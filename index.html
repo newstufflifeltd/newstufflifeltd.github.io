@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new stuff life</title>
+    <link rel="stylesheet" href="storefront.css">
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+
+<header>
+<div class="header-main">
+        <h1>NewStuffLife Store Feed</h1>
+        <nav class="header-nav">
+                <a href="index.html" class="active">Storefront</a>
+                <span class="pipe">|</span>
+                <a href="reviews.html">Reviews</a>
+                <span class="pipe">|</span>
+                <a href="contact.html">Contact</a>
+            </nav>
+</div>
+</header>
+
+<div class="main-container">
+    <!-- Main Listings Feed -->
+    <div id="listings"></div>
+
+    <!-- Info Sidebar -->
+    <aside class="info-sidebar">
+        <div class="info-card">
+            <h3>Feed Status</h3>
+            <p id="last-updated">Last updated: Checking...</p>
+            <p id="total-count">Listings loaded: 0</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Exchange Rates</h3>
+            <p id="rate-eur">EUR: --</p>
+            <p id="rate-usd">USD: --</p>
+        </div>
+
+        <div class="info-card disclaimer">
+            <h3>Notice</h3>
+            <p>Prices and availability are fetched automatically and may not always be 100% accurate. Check eBay for live listing details.</p>
+        </div>
+    </aside>
+</div>
+
+<script src="storefrontloader.js"></script>
+</body>
+</html>

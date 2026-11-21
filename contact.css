@@ -1,0 +1,57 @@
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px !important;
+}
+
+.contact-section h2 {
+    font-size: 1.1rem;
+    color: #111;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contact-section p {
+    color: #555;
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contact-email-link {
+    display: inline-block;
+    color: #0066c0;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.05rem;
+    margin-top: 4px;
+}
+
+.contact-email-link:hover {
+    text-decoration: underline;
+}
+
+.contact-icon-box {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.contact-subline {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* Make sure text links don't inherit weird colors */
+.contact-feed-card {
+    text-decoration: none;
+    color: inherit;
+}
