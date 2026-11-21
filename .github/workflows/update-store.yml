@@ -29,7 +29,7 @@ jobs:
           pip install feedparser beautifulsoup4 requests
 
       - name: Run eBay scraper
-        run: python fetch_ebay.py
+        run: python fetch_listings.py
 
       - name: Commit and push updated items.json
         run: |
